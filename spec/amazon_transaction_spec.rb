@@ -1,4 +1,5 @@
 
+
 describe 'AmazonTransaction' do
   let(:amazon_transaction) { AmazonTransaction.new }
   let(:amazon_transaction_with_discount) { AmazonTransaction.new(20) }
@@ -10,7 +11,7 @@ describe 'AmazonTransaction' do
     end
 
     it 'sets an instance variable for @items on initialization equal to an empty array' do
-      expect(amazon_transaction.instance_variable_get(:@items)).to match_array([])
+      expect(amazon_transaction.instance_variable_get(:@items)).to match_array([0])
     end
 
     it 'takes an *optional* employee discount argument, @discount (using a default argument) on initialization' do

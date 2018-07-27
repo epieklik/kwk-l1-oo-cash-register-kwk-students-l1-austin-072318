@@ -1,4 +1,4 @@
-### Cha Ching!
+8### Cha Ching!
 
 Amazon needs a new payment app. You're a Director of Engineering at Amazon, and
 the CTO just came to you and asked you to rewrite their payment app in time for
